@@ -1,27 +1,48 @@
-# Frontend
+# CRUD em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+Aplicação desenvolvida pela COD3R para ensinar os fundamentos do framework Angular.
 
-## Development server
+## Tecnologias
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Para a construção deste projeto, foram utilizadas as seguintes ferramentas:
 
-## Code scaffolding
+- [Typescript](https://www.typescriptlang.org/)
+- [Angular](https://angular.io/)
+- [Material UI](https://material.angular.io/)
+- [Json Server](https://www.npmjs.com/package/json-server)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação
 
-## Build
+Para iniciar o projeto, primeiramente você deve baixar as dependências do front-end com o seguinte comando no diretório raiz:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```bash
+npm i
+```
 
-## Running unit tests
+Após isso, acesse o diretório `backend` para instalar as dependências do servidor fake, com o mesmo comando indicado acima.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Rodando a aplicação
 
-## Running end-to-end tests
+Após a instação, para rodar a aplicação primeiramente acesse o diretório `backend` e inicie o servidor com o camando:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```bash
+npm start
+```
 
-## Further help
+O servidor é na realidade um arquivo `json` que simula um back-end através da lib `json-server`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Após isso, volte para o diretório raiz e rode o comando:
+
+`npm start`
+
+<h2 id="autor">Autor</h2>
+
+<a href="https://github.com/kauecdev">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61801350?s=460&u=3628d2587f78759db6eae0a3cc150207c6dfa2bd&v=4" width="100px;" alt=""/>
+ <br /><b>Kauê Cavalcante</b></a>
+
+
+Software Developer apaixonado por tecnologia! ❤️
+
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/kauecdev)](https://github.com/kauecdev)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kauê-cavalcante-76683214b//)](https://www.linkedin.com/in/kauê-cavalcante-76683214b//)
